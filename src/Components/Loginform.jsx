@@ -1,9 +1,10 @@
 import React from "react";
+import "./Loginup.css";
 
-const LoginFrom = () => {
+const Loginfrom = () => {
     return (
         <div>LoginFrom</div>
     )
 }
 
-export default LoginFrom;
+export default Loginfrom;

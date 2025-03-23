@@ -1,9 +1,16 @@
 import React from "react";
-import "./Cartform.css"
+import "./Styles/Cartform.css"
+import Navbar from "./Cartcomponent/Navbar";
+import Amazon from "./Cartcomponent/amazon";
+import Shopcart from "./Cartcomponent/shopcart";
 
 const Cartform = () => {
     return (
-        <div>Cartform</div>
+        <div>
+            <Navbar />
+            <Amazon />
+            <Shopcart />
+        </div>
     )
 }
 

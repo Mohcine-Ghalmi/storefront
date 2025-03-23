@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css"
+import "./Styles/Header.css"
 const Header = () => {
     return (
         <div className="nav_div">
